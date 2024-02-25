@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, #ff69b4, #dd3377);
+    color: white;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#description {
+    font-size: larger;
+    color: #333;
+}
+
+#speakers {
+    list-style: none;
+    padding: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#schedule {
+    table-layout: fixed;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+th {
+    color: #333;
+}
+
+h1 {
+    color: white;
+}
+
+section:nth-child(1) {
+    background-color: #ff69b4;
+}
+
+section:nth-child(2) {
+    background-color: #dd3377;
+}
+
+section:nth-child(3) {
+    background-color: #f5f5dc;
+}
